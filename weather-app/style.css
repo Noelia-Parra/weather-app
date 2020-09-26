@@ -1,0 +1,75 @@
+body {
+  background-color: #2ec1ac;
+  color: rgb(36, 35, 35);
+  font-family: "Montserrat", sans-serif;
+}
+
+.bgimage {
+  width: 100%;
+  background-image: url(../weather-app/src/sunny.png);
+  background-position-x: center;
+  background-position-y: baseline;
+  background-size: cover;
+}
+
+.col-7 {
+  border-radius: 0px 20px 20px 0px;
+  padding: 20px;
+}
+.col-5 {
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px;
+  background: #eff48e;
+}
+
+.container {
+  border: solid;
+  border-color: #2ec1ac;
+  padding: none;
+  margin-top: 20px;
+  width: 800px;
+  border-radius: 25px;
+  display: block;
+  background-color: #3e978b;
+}
+
+.form-control {
+  width: 200px;
+  border: none;
+  background-color: #d2e603;
+  border-radius: 20px;
+}
+#city-input::placeholder {
+  color: #3e978b;
+}
+
+.btn.btn-primary {
+  margin-left: 5px;
+  width: 50px;
+  background-color: #eff48e;
+
+  border: none;
+  border-radius: 20px;
+}
+
+.city {
+  font-size: 32px;
+}
+.pic {
+  font-size: 32px;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 18px;
+}
+.temp {
+  font-size: 32px;
+}
+
+.degrees {
+  font-size: 15px;
+}

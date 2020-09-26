@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather today</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        
+        
+        <div class="col-5">
+            <div class="row">
+               
+            <input type="search" placeholder="Type a city.." class="form-control" id="city-input" autocomplete="off"  />
+        
+   
+            <input type="submit" value="🔍" class="btn btn-primary" />
+       
+            </div>
+         <p class="city">Madrid</p>
+          
+          <p class="pic">🌞</p>
+          <br />
+          <ul>
+          <li class="temp">23 <span class="degrees"><a href="#" class="cels">ºC</a> | <a href="#" class="far">ºF</a></span></li>
+          
+          <li class="explain">Sunny</li>
+        <br>
+          <li class="humi">Humidity: <span class="humidity">48</Humidity:span>%</li>
+          
+          <li class="wind">Wind: <span class="windy">10</span>km/h</li>
+        <br>
+          <li class="update">Last update</li>
+          <li class="hour">23:00</li>
+        </ul>
+        </div>
+        <div class="col-7 bgimage">
+          Next hours
+          <br />🌞
+          <br />
+          🌞
+          <br />
+          🌞
+          <br />
+          🌞
+          <br />
+          🌞
+          
+           <!-- <img src="src/sunny.png" alt="sunny" class="rounded float-right" width="300"> -->
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="../weather-app/script.js"> </script>
+</html>
